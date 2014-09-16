@@ -27,6 +27,10 @@
     <gap:splash src="appStoreArt/Default-Landscape_at_2x.png" width="2048" height="1496" />
     <gap:splash src="appStoreArt/Default-Portrait_at_2x.png" width="1536" height="2008" />
 
+    <gap:config-file platform="ios" parent="CFBundleShortVersionString">
+        <string>001</string>
+    </gap:config-file>
+
     <icon src="appStoreArt/classic.png" gap:platform="ios" width="57" height="57" />
     <icon src="appStoreArt/ipad.png" gap:platform="ios" width="72" height="72" />
     <icon src="appStoreArt/retina.png" gap:platform="ios" width="114" height="114" />
