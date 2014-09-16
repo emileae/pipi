@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.piheroes.www"
+        version   = "0.0.1">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Pi Heroes</name>
+
+    <description>
+        Test your memory by seeing how many decimal places of pi you can remember. See how you compare by posting your top scores to www.piheroes.com.
+    </description>
+
+    <author href="http://www.piheroes.com" email="admin@piheroes.com">
+        Emile
+    </author>
+    
+    <icon src="icon.png" />
+    <gap:splash src="splash.png" />
+    
+    <gap:splash src="appStoreArt/default.png" width="320" height="480" />
+    <gap:splash src="appStoreArt/default_at_2x.png" width="640" height="960" />
+    <gap:splash src="appStoreArt/Default_iphone5.png" width="640" height="1136" />
+    <gap:splash src="appStoreArt/Default-Landscape.png" width="1024" height="768" />
+    <gap:splash src="appStoreArt/Default-Portrait.png" width="768" height="1024" />
+    <gap:splash src="appStoreArt/Default-Landscape_at_2x.png" width="2048" height="1496" />
+    <gap:splash src="appStoreArt/Default-Portrait_at_2x.png" width="1536" height="2008" />
+
+    <icon src="appStoreArt/classic.png" gap:platform="ios" width="57" height="57" />
+    <icon src="appStoreArt/ipad.png" gap:platform="ios" width="72" height="72" />
+    <icon src="appStoreArt/retina.png" gap:platform="ios" width="114" height="114" />
+    <icon src="appStoreArt/retina_ipad.png" gap:platform="ios" width="144" height="144" />
+    
+    <!--<preference name="permissions" value="none"/>
+    
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>-->
+    
+    <preference name="orientation" value="portrait" />
+    <preference name="phonegap-version" value="3.5.0" />
+    <preference name="detect-data-types" value="false" />
+    <preference name="fullscreen" value="true" />
+    
+    <access origin="*" />
+    
+</widget>
